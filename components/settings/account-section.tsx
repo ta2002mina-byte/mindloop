@@ -61,7 +61,7 @@ export function AccountSection() {
           <div>
             <p className="text-sm font-medium text-destructive">Delete account</p>
             <p className="mt-1 max-w-sm text-sm text-muted-foreground">
-              Permanently deletes your profile and everything you've saved. This cannot be undone.
+                 Permanently deletes your profile and everything you&apos;ve saved. This cannot be undone.
             </p>
           </div>
 
@@ -103,7 +103,7 @@ export function AccountSection() {
                   aria-describedby={`${confirmId}-hint`}
                 />
                 <p id={`${confirmId}-hint`} className="text-xs text-muted-foreground">
-                  This step exists so a stray click can't delete your account.
+                  This step exists so a stray click can&apos;t delete your account.
                 </p>
               </div>
 

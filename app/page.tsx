@@ -155,8 +155,8 @@ export default async function HomePage() {
         <section className="border-t bg-muted/30">
           <div className="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6">
             <h2 className="font-display text-3xl font-semibold tracking-tight">
-              Your next overthinking spiral doesn't have to end the same way.
-            </h2>
+  Your next overthinking spiral doesn&apos;t have to end the same way.
+</h2>
             <p className="mt-3 text-muted-foreground">Create a free account and analyze your first thought today.</p>
             <Button asChild size="lg" className="mt-8">
               <Link href={primaryHref}>
